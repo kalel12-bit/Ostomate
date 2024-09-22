@@ -133,3 +133,11 @@ button:hover {
     height: 20px;
     margin-right: 5px; /* Jarak antara ikon dan teks */
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .profile-frame {
+        width: 100px; /* Adjust width for mobile */
+        height: 100px; /* Adjust height for mobile */
+    }
+}
