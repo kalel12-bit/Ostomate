@@ -1,4 +1,4 @@
-[Uploading login.html<!DOCTYPE html>
+[Uploading login.html…]()<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -614,6 +614,14 @@ button:hover {
     width: 20px;
     height: 20px;
     margin-right: 5px; /* Jarak antara ikon dan teks */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .profile-frame {
+        width: 100px; /* Adjust width for mobile */
+        height: 100px; /* Adjust height for mobile */
+    }
 }
 
 <!DOCTYPE html>
@@ -1811,4 +1819,4 @@ h2 {
     color: red;
     margin-top: 10px;
 }
-…]()
+
